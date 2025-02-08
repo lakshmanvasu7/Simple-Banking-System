@@ -24,3 +24,62 @@ A web-based banking application that allows users to create accounts, deposit mo
 ```bash
 git clone https://github.com/your-repository/simple-banking-system.git
 cd simple-banking-system
+```
+
+### 2. Install Dependencies
+Make sure you have Python installed. Then, install Flask:
+```bash
+pip install flask
+```
+
+### 3. Run the Application
+Start the Flask server:
+```bash
+python app.py
+```
+The application will run on `http://127.0.0.1:5000/`.
+
+### 4. Open in Browser
+Go to `http://127.0.0.1:5000/` to access the Simple Banking System.
+
+---
+
+## Project Structure
+
+```
+/simple-banking-system
+│── static/
+│   ├── style.css         # CSS for styling
+│   ├── script.js         # JavaScript for frontend interactions
+│── templates/
+│   ├── index.html        # Main frontend file
+│── app.py                # Flask backend
+│── README.md             # Project documentation
+```
+
+---
+
+## API Endpoints
+
+| Endpoint        | Method | Description |
+|----------------|--------|-------------|
+| `/`            | GET    | Renders the main banking system page |
+| `/create_account` | POST  | Creates a new account |
+| `/deposit`     | POST   | Deposits money into an account |
+| `/withdraw`    | POST   | Withdraws money from an account |
+| `/check_balance` | POST  | Checks the balance of an account |
+
+---
+
+## Future Improvements
+
+- Implement database storage instead of in-memory storage
+- Add authentication for users
+- Provide transaction history for each account
+
+---
+
+## License
+
+This project is open-source and free to use.
+
