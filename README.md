@@ -1,4 +1,3 @@
-# Simple-Banking-System
 # Simple Banking System
 
 A web-based banking application that allows users to create accounts, deposit money, withdraw funds, and check their balance. The application is built using **Flask** for the backend and **HTML, CSS, and JavaScript** for the frontend.
